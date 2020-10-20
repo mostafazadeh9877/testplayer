@@ -1,0 +1,108 @@
+{
+  "timelines": {
+    "timelineName": "FTIM",
+    "version": "3.3.3",
+    "screenDivision": {
+      "screenDivisionId": "DivisionBox",
+      "viewers": [
+        {
+          "viewerId": "ViewNum1",
+          "Components": [
+            {
+              "id": "COMP_160026899387110316",
+              "time": 2
+            },
+            {
+              "id": "COMP_160041277084312711",
+              "time": 3
+            }
+          ]
+        },
+        {
+          "viewerId": "ViewNum2",
+          "Components": [
+            {
+              "id": "COMP_160041277084311063",
+              "time": 10
+            }
+          ]
+        },
+        {
+          "viewerId": "ViewNum3",
+          "Components": [
+            {
+              "id": "COMP_160041277084316878",
+              "time": 5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "scheduling": [
+    {
+      "title": "زمان بند ۱",
+      "name": "FTIM",
+      "start": "2020-09-14T20:50:00.000Z",
+      "end": "2020-09-14T20:50:00.000Z",
+      "fromDate": "1399/6/25 01:20",
+      "toDate": "1399/6/27 00:00"
+    },
+    {
+      "title": "ssd",
+      "name": "sdf",
+      "start": "2020-09-21T20:30:00.000Z",
+      "end": "2020-09-21T20:30:00.000Z",
+      "fromDate": "1399/7/1 00:00",
+      "toDate": "1399/7/4 00:00"
+    }
+  ],
+  "components": [
+    {
+      "componentId": "IMAGEVIEW",
+      "title": "تصویر من",
+      "id": "COMP_160026899387110316",
+      "src": "download33.png",
+      "children": []
+    },
+    {
+      "componentId": "URLLOADER",
+      "title": "آدرس گوگل",
+      "id": "COMP_160041277084312711",
+      "url": "http://google.com",
+      "children": []
+    },
+    {
+      "componentId": "VIDEOVIEW",
+      "title": "فیلم تست من",
+      "id": "COMP_160041277084316878",
+      "src": "video_2018-12-14_16-52-55 (convert-video-online.com) (1).mp4",
+      "duration": "507.082",
+      "repeat": "2",
+      "children": []
+    },
+    {
+      "componentId": "IMAGEVIEW",
+      "id": "COMP_160041277084316881",
+      "src": "۱۱۱۱۱.png",
+      "children": []
+    },
+    {
+      "componentId": "VIDEOVIEW",
+      "id": "COMP_160041277084315928",
+      "src": "video_2018-12-14_16-52-55 (convert-video-online.com) (1).mp4",
+      "duration": "507.082",
+      "repeat": "0",
+      "children": []
+    },
+    {
+      "componentId": "PLAYLIST",
+      "title": "لیست پخش",
+      "id": "COMP_160041277084311063",
+      "children": [
+        "COMP_160041277084316881",
+        "COMP_160041277084315928"
+      ]
+    }
+  ]
+}
