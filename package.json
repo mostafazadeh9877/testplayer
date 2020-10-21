@@ -2,7 +2,7 @@
   "name": "testPlayer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon index"
   },
@@ -15,10 +15,11 @@
     "express": "^4.17.1",
     "nocache": "^2.1.0",
     "nodemon": "^2.0.4",
-    "on-headers": "^1.0.2"
+    "on-headers": "^1.0.2",
+    "socket.io": "^1.4.6",
+    "sockjs": "^0.3.21"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0",
-    "socket.io": "^2.3.0"
+    "dotenv": "^8.2.0"
   }
 }
